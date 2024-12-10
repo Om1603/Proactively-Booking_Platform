@@ -1,10 +1,10 @@
-# 🚀 Proactively Booking Platform
+# 🚀 **Proactively Booking Platform**
 
 An intuitive web application for booking sessions with speakers, verifying user signup with OTPs, handling user authentication, and session management. Built using **Node.js**, **Express.js**, **Sequelize**, and **SQL** with RESTful APIs.
 
 ---
 
-## 📖 Table of Contents
+## 📖 **Table of Contents**
 
 - [✨ Project Overview](#-project-overview)  
 - [🔧 Features](#-features)  
@@ -15,7 +15,7 @@ An intuitive web application for booking sessions with speakers, verifying user 
 
 ---
 
-## ✨ Project Overview
+## ✨ **Project Overview**
 
 Proactively Booking Platform is a modern web application that allows users to:
 
@@ -29,7 +29,7 @@ The platform is designed for user-friendly session management, seamless speaker 
 
 ---
 
-## 🔧 Features
+## 🔧 **Features**
 
 ✅ **User Authentication**  
 - Secure signup/login system with **email OTP verification**.  
@@ -53,7 +53,7 @@ The platform is designed for user-friendly session management, seamless speaker 
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ **Tech Stack**
 
 The application is built using the following technologies:
 
@@ -70,7 +70,7 @@ The application is built using the following technologies:
 
 ---
 
-## 💻 Installation
+## 💻 **Installation**
 
 To set up the **Proactively Booking Platform** locally, follow the steps below:
 
@@ -132,6 +132,7 @@ Below is the list of available endpoints:
 ---
 
 > Refer to the full documentation for detailed endpoint descriptions.
+> https://documenter.getpostman.com/view/40296080/2sAYBd98rV
 
 ---
 
