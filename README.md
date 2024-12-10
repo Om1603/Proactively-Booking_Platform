@@ -8,7 +8,7 @@ An intuitive web application for booking sessions with speakers, verifying user 
 
 - [✨ Project Overview](#-project-overview)  
 - [🔧 Features](#-features)  
-- [🛠️ Tech Stack](#🛠️-tech-stack)
+- [🛠️ Tech Stack](#-tech-stack)
 - [💻 Installation](#-installation)  
 - [📄 API Documentation](#-api-documentation)   
 - [📜 License](#-license)
