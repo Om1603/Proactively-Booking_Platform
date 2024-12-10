@@ -8,7 +8,7 @@ An intuitive web application for booking sessions with speakers, verifying user 
 
 - [✨ Project Overview](#-project-overview)  
 - [🔧 Features](#-features)  
-- [🛠️ Tech-Stack](#-tech-stack)
+- [🛠️ Tech Stack](#-tech-stack)
 - [💻 Installation](#-installation)  
 - [📄 API Documentation](#-api-documentation)   
 - [📜 License](#-license)
@@ -53,7 +53,7 @@ The platform is designed for user-friendly session management, seamless speaker 
 
 ---
 
-## 🛠️ **Tech-Stack**
+## 🛠️ **Tech Stack**
 
 The application is built using the following technologies:
 
@@ -132,6 +132,7 @@ Below is the list of available endpoints:
 ---
 
 > Refer to the full documentation for detailed endpoint descriptions.
+
 > https://documenter.getpostman.com/view/40296080/2sAYBd98rV
 
 ---
