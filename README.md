@@ -80,3 +80,45 @@ To set up the **Proactively Booking Platform** locally, follow the steps below:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Om1603/Proactively-Booking_Platform.git
+
+2. **Navigate into the project directory**:
+
+   ```bash
+   cd Proactively-Booking_Platform
+3. **Install dependencies**:
+
+   ```bash
+   npm install express body-parser cors sequelize mysql2 jwt-simple bcrypt nodemailer dotenv && npm install --save-dev nodemon eslint prettier
+ 
+4. **Set environment variables**:
+   Configure the .env file with your DB name & credentials
+
+5. **Set the Email and Password**
+   In the authRoutes.js and bookingRoutes.js set your email and AppPassword in the transported
+
+6. **Start the Server**
+   ```bash
+   node app.js
+
+## 📊 Database Schema
+The following database schema is implemented for the application:
+
+---
+
+### `Users`
+
+| Column       | Type           | Description                                     |
+|---------------|----------------|-------------------------------------------------|
+| `id`          | INT (PK)      | Unique user ID                                  |
+| `firstName`   | VARCHAR(255)   | User's first name                               |
+| `lastName`    | VARCHAR(255)   | User's last name                                |
+| `email`       | VARCHAR(255)   | User's email address                            |
+| `password`    | VARCHAR(255)   | Encrypted password                              |
+| `userType`    | VARCHAR(255)   | Defines user type (speaker/user)               |
+| `otp`         | VARCHAR(6)     | OTP sent to email during signup                |
+| `otpExpires`   | TIMESTAMP      | Expiration date for OTP                        |
+| `isVerified`   | BOOLEAN        | User email verification status                  |
+| `createdAt`   | TIMESTAMP      | Record creation timestamp                       |
+| `updatedAt`   | TIMESTAMP      | Record last update timestamp                    |
+
+---
