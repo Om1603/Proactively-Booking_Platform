@@ -53,7 +53,7 @@ The platform is designed for user-friendly session management, seamless speaker 
 
 ---
 
-## 🛠️ **Tech Stack**
+## 🛠️ **Tech-Stack**
 
 The application is built using the following technologies:
 
