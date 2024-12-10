@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "om1603",
+    "database": "booking_platform",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "om1603",
+    "database": "booking_platform",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "om1603",
+    "database": "booking_platform",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
