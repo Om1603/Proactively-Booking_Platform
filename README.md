@@ -10,10 +10,7 @@ An intuitive web application for booking sessions with speakers, verifying user 
 - [🔧 Features](#-features)  
 - [🛠️ Tech Stack](#-tech-stack)  
 - [💻 Installation](#-installation)  
-- [🌟 Usage](#-usage)  
-- [🧪 Testing](#-testing)  
-- [📄 API Documentation](#-api-documentation)  
-- [🛡️ Contributing](#-contributing)  
+- [📄 API Documentation](#-api-documentation)   
 - [📜 License](#-license)
 
 ---
@@ -100,25 +97,45 @@ To set up the **Proactively Booking Platform** locally, follow the steps below:
    ```bash
    node app.js
 
-## 📊 Database Schema
-The following database schema is implemented for the application:
+## 📄 **API Documentation**
 
 ---
 
-### `Users`
+### **Endpoints**
 
-| Column       | Type           | Description                                     |
-|---------------|----------------|-------------------------------------------------|
-| `id`          | INT (PK)      | Unique user ID                                  |
-| `firstName`   | VARCHAR(255)   | User's first name                               |
-| `lastName`    | VARCHAR(255)   | User's last name                                |
-| `email`       | VARCHAR(255)   | User's email address                            |
-| `password`    | VARCHAR(255)   | Encrypted password                              |
-| `userType`    | VARCHAR(255)   | Defines user type (speaker/user)               |
-| `otp`         | VARCHAR(6)     | OTP sent to email during signup                |
-| `otpExpires`   | TIMESTAMP      | Expiration date for OTP                        |
-| `isVerified`   | BOOLEAN        | User email verification status                  |
-| `createdAt`   | TIMESTAMP      | Record creation timestamp                       |
-| `updatedAt`   | TIMESTAMP      | Record last update timestamp                    |
+Below is the list of available endpoints:
+
+1. **Authentication**
+
+   - `POST /auth/signup`: Register a new user and send OTP to email  
+   - `POST /auth/verify-otp`: Verify user email via OTP  
+   - `POST /auth/login`: Login with registered email & password  
 
 ---
+
+2. **User Profile**
+
+   - `POST /profile-setup`: Set up speaker profile (accessible only to speakers)  
+
+---
+
+3. **Speaker Directory**
+
+   - `GET /speakers`: Get all speaker profiles  
+
+---
+
+4. **Booking**
+
+   - `POST /bookings/book-session`: Book a session with a speaker  
+
+---
+
+> Refer to the full documentation for detailed endpoint descriptions.
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
